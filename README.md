@@ -13,6 +13,7 @@ CSS3: Para a estilização visual, garantindo um layout responsivo, limpo e agra
 JavaScript (ES6): Para o controle de eventos, validação dos campos e inteligência da página.
 API ViaCEP: Integração assíncrona para busca e preenchimento automático de endereços de forma gratuita e pública.
 
+
 🧠 Como eu pensei o projeto
 
 O desafio exigia a coleta de dados básicos (Nome, Idade, Cargo e CEP) com regras específicas de usabilidade. Desenvolvi a solução focando em duas frentes de experiência do usuário (UX):
@@ -27,6 +28,7 @@ Se o CEP for válido, o bloco de endereço aparece na tela em um passe de mágic
 
 O foco do teclado é automaticamente direcionado para o campo Número, que passa a ser obrigatório apenas se o endereço for exibido. Se o CEP for apagado ou alterado para um formato inválido, a seção se esconde novamente.
 
+
 📂 Estrutura das pastas
 Para demonstrar boas práticas de mercado e manter o código organizado (desmembrado), separei o projeto na seguinte estrutura:
 
@@ -34,6 +36,7 @@ Plaintext
 ├── index.html       # Estrutura esquelética da aplicação
 ├── style.css        # Estilização visual e regras de ocultação
 └── script.js        # Lógica de validação, manipulação do DOM e consumo da API
+
 
 🚀 Como testar o meu projeto
 
